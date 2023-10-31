@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROMI | Decentralized Perpetual Exchange</title>
+    <link rel="icon" href="New Logo.png">
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/9cf40599c1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Nosifer&family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+<script src="https://kit.fontawesome.com/9cf40599c1.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Nosifer&family=Poppins&family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+
+                                    <!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid p-3 mb-2 bg-black">
+    <a class="navbar-brand bg-black text-white" href="#"><img src="New Logo.png" alt="Logo" width="60" height="30" class="d-inline-block align-text-top"> Romi Finance</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">NFT</a>
+        </li>
+        <li class="nav-item">
+            <a href="earn.html">Earn</a>
+        </li>
+        <li class="nav-item">
+            <a href="#">Buy</a>
+        </li>
+        <li class="nav-item">
+            <a href="#">Referrals</a>
+        </li>
+        <li class="nav-item">
+            <a href="#">Ecosystem</a>
+        </li>
+        <li class="nav-item">
+            <a href="#">About</a>
+        </li>
+      </ul>
+
+            <a href="#"><button id="trade">Trade</button></a>
+    
+            <a href="#" id="wallet"><i class="fa-solid fa-wallet bg-dark mx-2 " style="color: #ffffff;"></i>Connect Wallet</a>
+
+            <a href="#" id="dropdown"><i class="fa-solid fa-globe mx-2"></i> | <i class="fa-solid fa-ellipsis-vertical mx-2"></i></a>
+
+    </div>
+  </div>
+</nav>
+
+<div id="main-body">
+
+                 <!-- Main body header -->
+
+<div>
+        
+<h1>Decentralized Perpetual Exchange</h1>
+
+<p id="main-body-para">Trade BTC, ETH, AVAX and other top cryptocurrencies with up to 30x leverage directly from your wallet</p>
+
+</div>
+
+    <div>
+        <button id="launch-btn">Launch Button</button>
+    </div>
+
+                    <!--The Card Three Boxes -->
+
+    <div class="row" id="three-cards">
+        
+    
+        <div class="col">
+            <div class="card bg-black" id="box1" style="width: 18rem;">
+              <div class="card-body">
+                <i class="fa-solid fa-arrow-down-up-across-line" style="color: #ffffff;"></i>
+                <h6 class="card-subtitle mb-2 ms-2 d-inline-block"><p>Total Trading Volume</p></h6>
+                <h5 class="card-title text-white">$0</h5>    
+              </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card bg-black" id="box2" style="width: 18rem;">
+              <div class="card-body">
+                <i class="fa-solid fa-arrow-trend-up" style="color: #ffffff;"></i>
+                <h6 class="card-subtitle mb-2 ms-2 d-inline-block"><p>Open Interest</p></h6>
+                <h5 class="card-title text-white">$0</h5>
+              </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card bg-black" id="box3" style="width: 18rem;">
+              <div class="card-body">
+                <i class="fa-solid fa-users" style="color: #ffffff;"></i>
+                <h6 class="card-subtitle mb-2 ms-2 d-inline-block"><p>Total Users</p></h6>
+                <h5 class="card-title text-white">0</h5>
+              </div>
+            </div>
+        </div>
+    </div>
+    
+    <hr>
+
+    <div class="row m-3 ">
+
+      <div class="col">
+        <div class="card text-white" id="box4" style="width: 18rem;">
+          <div class="card-body">
+            <h3><i class="fa-solid fa-droplet me-2"></i>Reduce Liquidation Risks</h3>
+            <p>An aggregate of high-quality price feeds determine when liquidations occur. This keeps positions safe from temporary wicks.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card text-white" id="box5" style="width: 18rem;">
+          <div class="card-body">
+            <h3><i class="fa-solid fa-money-bill-wave me-2"></i>Save on Costs</h3>
+            <p>Enter and exit positions with minimal spread and zero price impact. Get the optimal price without incurring additional costs.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card text-white" id="box6" style="width: 18rem;">
+          <div class="card-body">
+            <h3><i class="fa-solid fa-up-long fa-rotate-180"></i><i class="fa-solid fa-up-long me-2"></i>Simple Swaps</h3>
+            <p>Open positions through a simple swap interface. Conveniently swap from any supported asset into the position of your choice.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h1>Two tokens create our ecosystem</h1>
+    
+
+    <div class="row m-3 ">
+
+      <div class="col col-md-6 col-sm-12">
+        <div class="card bg-black text-white border border-secondary" id="box3">
+          <div class="card-body">
+            <h3 class="m-3"><img src="img1.png" alt="Logo" width="50" height="40" class="d-inline-block align-text-top"> $ZOMI</h3>
+            <p>$ZOMI is the utility and governance token. Accrues 30% of the platform's generated fees.</p>
+            <p id="grey">Ethereum APR: 0.00%</p>
+            <a href="https://zomi.finance/#/buy_ZOMI"><button class="btn-buy">Buy</button></a>
+            <button class="btn-read mt-2">Read more</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col-md-6 col-sm-12">
+        <div class="card bg-black text-white border border-secondary" id="box3">
+          <div class="card-body">
+            <h3 class="m-3"><img src="img2.png" alt="Logo" width="50" height="40" class="d-inline-block align-text-top"> $ZLP</h3>
+            <p>$ZLP is the liquidity provider token. Accrues 70% of the platform's generated fees.</p>
+            <p id="grey">Ethereum APR: 1,654,719,756.04%</p>
+            <a href="https://zomi.finance/#/buy_mlp"><button class="btn-buy">Buy</button></a>
+            <button class="btn-read mt-2">Read more</button>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <hr class=" mt-5">
+    <center>
+    <footer>
+      <div>
+        <h2>ROMI FINANCE</h2>
+      </div>
+
+      <div id="media" class="m-4">
+          <a href="https://twitter.com/zomi.finance"><i class="fa-brands fa-twitter me-3"></i></a>
+          <a href="https://zomifinance.medium.com/"><i class="fa-solid fa-m me-3"></i></a>
+          <a href="https://github.com/zomi"><i class="fa-brands fa-github me-3"></i></a>
+          <a href="https://t.me/zomichat"><i class="fa-brands fa-telegram me-3"></i></a>
+          <a href="https://discord.com/invite/senshilabs"><i class="fa-brands fa-discord me-3"></i></a>
+      </div>
+
+      <div id="media-links">
+          <a href="https://zomi.finance/#/terms-and-conditions">Terms and Conditions</a>
+          <a href="https://zomi.finance/#/referral-terms">Referral Terms</a>
+          <a href="https://docs.zomi.finance/">Media Kit</a>
+      </div>
+    </footer>
+    </center>
+
+
+</div>
+
+
+
+
+    
+
+    
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
